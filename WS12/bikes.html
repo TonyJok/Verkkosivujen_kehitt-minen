@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bikes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="./images/logo.png" alt="logo" width="100" height="65">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="bikes.html">Bikes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gear.html">Gear</a></li>
+                    <li class="nav-item"><a class="nav-link" href="routes.html">Routes and tracks</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="content">
+        <h3 class="text-center my-4">Bikes</h3>
+        <div class="container">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/sport.avif" class="d-block w-100 img-fluid" alt="Sport">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Sport</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/cruiser.avif" class="d-block w-100 img-fluid" alt="Cruiser">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Cruiser</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/motorcross.webp" class="d-block w-100 img-fluid" alt="Motorcross">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Offroad/Dirtbike</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/touring.jpeg" class="d-block w-100 img-fluid" alt="Touring">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Touring</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/triumph-cafe-racer-7.jpg" class="d-block w-100 img-fluid" alt="Café Racer">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Café Racer</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/gts.avif" class="d-block w-100 img-fluid" alt="Moped">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Moped</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            
+        </div>
+    </div>
+    <div class="content">
+     <div class="container">
+        <div class="accordion" id="bikeAccordion" style="width: 1140px;">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Sport
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#bikeAccordion">
+                    <div class="accordion-body">
+                        Sport bikes are high-performance motorcycles designed for speed, agility, and precision. With sleek aerodynamics, lightweight frames, and powerful engines, they excel on both roads and racetracks. Featuring advanced tech like traction control and sharp handling, they deliver an unmatched adrenaline-filled experience. Popular among thrill-seekers, sport bikes are icons of speed and style.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Cruiser
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#bikeAccordion">
+                    <div class="accordion-body">
+                        Cruisers are motorcycles designed for relaxed, comfortable riding, emphasizing style and ease. Known for their low seat height, stretched handlebars, and laid-back riding position, they are ideal for long journeys and casual rides. Featuring powerful, torque-rich engines, cruisers offer smooth performance rather than high-speed thrills. Iconic models from brands like Harley-Davidson, Indian, and Honda make cruisers synonymous with timeless style and road-trip freedom.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Offroad
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#bikeAccordion">
+                    <div class="accordion-body">
+                        Offroad or Dirt bikes are lightweight motorcycles designed for off-road adventures, excelling on rugged trails, mud, and uneven terrain. Built for durability, they feature high ground clearance, knobby tires, and robust suspension systems to handle jumps and obstacles. Their compact frames and responsive engines make them agile and easy to maneuver. Popular for motocross and trail riding, dirt bikes are a favorite for those seeking adventure and thrill off the beaten path.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Touring
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#bikeAccordion">
+                    <div class="accordion-body">
+                        Touring bikes are motorcycles built for long-distance travel, offering comfort, storage, and reliability for extended journeys. With features like spacious saddlebags, windshields, and ergonomic seating, they prioritize rider and passenger convenience. Equipped with powerful engines and advanced technology such as GPS, cruise control, and heated grips, touring bikes ensure a smooth and enjoyable ride over any terrain. They are the ideal choice for exploring new horizons in comfort and style.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Café Racer
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#bikeAccordion">
+                    <div class="accordion-body">
+                        Café racers are stylish, minimalist motorcycles inspired by the custom bikes of the 1960s. Known for their lightweight design, aggressive riding stance, and retro aesthetics, they prioritize speed and handling for short, spirited rides. Typically featuring low handlebars, a streamlined tank, and a single-seat design, café racers embody a blend of vintage charm and modern performance. Popular among enthusiasts, they are a symbol of individuality and timeless motorcycling culture.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        Moped
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#bikeAccordion">
+                    <div class="accordion-body">
+                        Mopeds are compact, lightweight two-wheelers designed for urban commuting and short trips. Combining a small engine with bicycle-like simplicity, they offer excellent fuel efficiency and ease of use. Typically featuring a step-through frame and speeds under 30 mph, mopeds are ideal for new riders and navigating crowded city streets. Affordable and practical, they have remained a popular choice for convenient, low-cost transportation worldwide.
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <footer class="footer mt-auto py-3">
+        <div>
+            <a href="https://github.com/TonyJok"><i class="bi bi-github"></i></a>
+            <a href="https://instagram.com/jokinentony"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/tony-jokinen-8b207a326/"><i class="bi bi-linkedin"></i></a><br>
+            Copyright © Tony Jokinen
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
